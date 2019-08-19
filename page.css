@@ -1,0 +1,278 @@
+body{
+	background-color: #706E6E;
+	margin:0px;
+}
+.header{
+	margin: 0px;
+	padding: 0px;
+	background-color: #6A0661;
+	height: 100px;
+	width: 100%;
+}
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.logo{
+	margin-left: 10%;
+	
+	vertical-align: middle;
+}
+.nav{
+	float: right;
+	width:300px;
+	margin-right: 10%;
+	margin-top: 0px;
+
+}
+ul{
+	padding-left:0px;
+
+}
+li{	
+	display: inline;
+	
+
+}
+li a{
+	text-decoration: none;
+	padding: 10px  10px 10px 10px;
+}
+
+ul li a:hover{
+ 	border: 1px outset gray;
+}
+ul li a:focus{
+	background-color: white;
+}
+
+
+.about-table{
+	display: table;
+	width: 80%	;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #B2AEAE;
+	border-bottom: 1px solid gray;
+
+}
+.about{
+	
+	
+	border:5px solid green;
+	display: table-row;
+
+	
+}
+.about-left{
+	font-size: 20px;
+	color: white;	
+	display: table-cell;
+	padding: 50px;
+	text-align: right;
+	vertical-align: middle;
+	
+}
+.about-right{
+	font-size: 21px;
+	color: white;	
+	display: table-cell;
+	padding: 50px 50px 50px 0px;
+	text-align: right;
+
+
+}
+.about-hr{
+	border-bottom: solid;
+	border-width:6px;
+	padding-left:70%;
+	text-align: right;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.about-buttom{
+	padding-top: 10px;
+}
+.profolio{
+	text-align: center;
+	font-size:30px;
+	font-weight: bold;
+	background-color: #F0F0F0;
+	color: gray;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	border-bottom: 1px solid gray;
+}
+.profolio-hr{
+	border-bottom: solid;
+	border-width:6px;
+	padding-left:50%;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.contact{
+	text-align: center;
+	font-size:30px;
+	font-weight: bold;
+	background-color: #F0F0F0;
+	color: gray;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.contact-table{
+	display: table;
+	width: 80%	;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F0F0F0;
+	border-bottom: 1px solid gray;
+
+}
+.contact-row{
+	
+	
+	border:5px solid green;
+	display: table-row;
+
+	
+}
+.contact-left{
+	font-size: 20px;
+	color: white;	
+	display: table-cell;
+	padding: 50px;
+	padding-bottom: 10px;
+	color: gray;
+	text-align: right;
+	vertical-align: middle;
+	
+}
+.contact-right,.note{
+	font-size: 20px;
+	color: gray;	
+	display: table-cell;
+	padding: 50px 50px 50px 20px;
+	padding-bottom: 10px;
+	text-align: left;
+	width: 50%;
+
+
+}
+
+form{
+	
+	text-align: left;
+}
+form div {
+	margin-bottom: 10px;
+}
+input {
+	background-color: #F0F0F0;
+	border:none;
+	font-size:30px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid gray;
+	margin-bottom: 20px;
+	width: 100%;
+}
+textarea{
+	background-color: #F0F0F0;
+	font-size:30px;
+	font-weight: bolder;
+	border:none;
+	border-bottom: 1px solid gray;
+	width: 100%;
+}
+
+
+.contact-end{
+	display: table-row;
+}
+.send{
+	display: table-cell;
+	padding: 50px;
+	padding-top: 0px;
+}
+.note{
+	display: table-cell;
+	padding-bottom: 50px;
+	padding-top: 0px;
+
+}
+.submit{
+	border:1px solid gray;
+	margin:0px;
+	margin-top: 10px;
+	padding:5px;
+	font-size:10px;
+	color:gray;
+	width: 10%;
+}
+
+.end{
+	display: table;
+	background-color: #B9B6B6;
+	width: 100%;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+.information{
+	display: table-row;
+	margin:0px;
+	color:white;
+}
+.information-right{
+	padding-top: 50px;
+	display: table-cell;
+}
+.information-left{
+	display: table-cell;
+	font-style: bold;
+	padding-bottom: 50px;
+}
+.line1{
+	 letter-spacing:0px;
+	font-size:25px;
+	font-style: bold;
+	color:white;
+}
+.made-with{
+	color:white;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.Justin{
+	text-decoration: none;
+	color:#910CD4;
+	font-size: 20px;
+
+}
+.myborder{
+	width:50px;
+	height:50px;
+	border-radius: 50%;
+	border:2px solid white;
+	vertical-align: middle;
+	text-align: center
+}
+.fa{
+	margin :5px;
+}
+.copywrite{
+	font-size: 20px;
+	color:white;
+	background-color: #6A0661;
+	text-align: center;
+	height: 80px;
+	vertical-align: middle;
+	line-height: 80px;
+}
